@@ -10,7 +10,7 @@ int main(void)
         printf("a[%d]= ",i);
         scanf("%d",&a[i]);//*输入这十个数
     }
-    printf("\n这10个数分别是: ");
+    printf("\n这10个数分别是: \n");
     for(i=1;i<=10;i++)
     {
         printf("%5d",a[i]);//*输出这十个数
