@@ -35,7 +35,7 @@ C语言基础：数组
 
 - **编译器**：MinGW-W64 (GCC v16.2.0)
 - **IDE**：Visual Studio Code
-- **辅助工具**：Code Runner (快速调试) + Error Lens（错误透镜） + Clang-Format（格式自动化）
+- **辅助工具**（IDE插件）：Code Runner (快速调试) + Error Lens（错误透镜） + Clang-Format（自动格式化）
 - **版本控制**：Git + GitHub（遵循 “约定式提交” 规范。）
 
 ## 🚀 如何运行
@@ -44,12 +44,8 @@ C语言基础：数组
     git bash:
     git clone https://github.com/Daxue-M-CMG/C_Array_Learning_Projects.git
 
-2.    进入对应目录，使用 GCC 编译单个 .c 文件：
-    bash
-    gcc 文件名.c -o 输出名
+2.  进入对应目录，使用 GCC 编译单个 .c 文件；
 
-3.  运行生成的 .exe 文件（Windows）：
-    bash
-    ./输出名.exe
+3.  运行生成的 .exe 文件（Windows）；
 
 （注：本仓库不含 CMake 构建文件。）
