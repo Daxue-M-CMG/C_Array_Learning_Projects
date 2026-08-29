@@ -4,7 +4,7 @@ int main(void)
 {
     int a[11][11];
     int i, j, n, k, m;
-    int row_max, col_min, max_c, over_found = 0; //*over_found用于标记整个数组是否有鞍点
+    int row_max, max_c, over_found = 0; //*over_found用于标记整个数组是否有鞍点
     printf("请输入数组行、列数(空格分隔): \n");
     scanf("%d %d", &n, &k);
     for (i = 0; i < n; i++) //*用户自定义数据并输入
